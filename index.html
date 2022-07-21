@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +15,37 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App</h1>
+      <div class="weather-app">
+        <h1>Madrid</h1>
+        <ul>
+          <li>Friday 09:00</li>
+          <li>Clear</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="Clear icon"
+            />
+            30 °C | °F
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Precipitation: 0%</li>
+              <li>Humidity: 29%</li>
+              <li>Wind: 10 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small>
+        <a
+          href="https://github.com/MarynaVorobei/vanilla-weather-project"
+          target="_blank"
+          >Open-source code</a
+        >
+        by Maryna Vorobei
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
