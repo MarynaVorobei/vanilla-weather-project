@@ -39,8 +39,18 @@ li:first-letter {
   padding: 40px;
   background: #fff;
   border-radius: 16px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  box-shadow: 0 10px 10px rgb(65 50 100 / 8%);
   color: #878787;
+}
+
+.searched-city-description {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 40px;
+  background: #f9f7fe;
+  border-radius: 16px;
+  box-shadow: 0 5px 5px rgb(65 50 100 / 8%);
+  color: rgba(39, 33, 66, 0.4);
 }
 
 .overview {
@@ -73,4 +83,23 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
