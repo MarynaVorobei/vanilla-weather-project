@@ -1,5 +1,5 @@
 body {
-  background: #f9f7fe;
+  background: #f3f8fe;
   font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
 }
 
@@ -47,7 +47,7 @@ li:first-letter {
   max-width: 800px;
   margin: 30px auto;
   padding: 40px;
-  background: #f9f7fe;
+  background: #f3f8fe;
   border-radius: 16px;
   box-shadow: 0 5px 5px rgb(65 50 100 / 8%);
   color: rgba(39, 33, 66, 0.4);
@@ -102,4 +102,39 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    height: 100%;
+  }
+  .weather-app {
+    max-width: 90%;
+    height: 100%;
+  }
+  .btn {
+    margin-top: 20px;
+    width: 50%;
+    display: block;
+  }
+
+  .float-left strong {
+    font-size: 50px;
+  }
+
+  .weather-temperature .units {
+    position: relative;
+    font-size: 14px;
+    top: -26px;
+  }
+
+  .main-img {
+    position: relative;
+    font-size: 14px;
+    top: -6px;
+  }
+
+  .main-description {
+    font-size: 14px;
+  }
 }
