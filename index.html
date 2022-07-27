@@ -16,6 +16,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/2c8d806c09.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
@@ -41,12 +45,12 @@
                 <input
                   type="submit"
                   value="Search"
-                  class="btn btn-primary w-100"
+                  class="btn btn-light w-100"
                 />
               </div>
               <div class="col-sm-3">
                 <button
-                  class="btn btn-success w-100"
+                  class="btn btn-light w-100"
                   id="current-location-button"
                 >
                   My Location
@@ -58,7 +62,10 @@
             <div class="overview">
               <h1 id="city"></h1>
               <ul>
-                <li>🕓 Last updated <span id="date"></span></li>
+                <li>
+                  <i class="fa-regular fa-clock"></i> Last updated
+                  <span id="date"></span>
+                </li>
               </ul>
             </div>
             <div class="row">
