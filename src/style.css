@@ -76,15 +76,6 @@ li:first-letter {
   top: -34px;
 }
 
-.weather-temperature .active {
-  color: #212121;
-  cursor: default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
@@ -102,6 +93,12 @@ li:first-letter {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.open-source {
+  position: relative;
+  left: 5%;
+  transform: translate(-5%, 0);
 }
 
 @media screen and (max-width: 600px) {
@@ -145,5 +142,11 @@ li:first-letter {
 
   .main-description {
     font-size: 14px;
+  }
+
+  .weather-app {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
 }

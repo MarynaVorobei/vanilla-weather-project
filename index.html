@@ -52,7 +52,6 @@
               <h1 id="city"></h1>
               <ul>
                 <li>Last updated: <span id="date"></span></li>
-                <li id="description"></li>
               </ul>
             </div>
             <div class="row">
@@ -73,6 +72,10 @@
               <div class="col-4">
                 <ul>
                   <li class="main-description">
+                    Feels like <span id="feels-like"></span>°
+                  </li>
+                  <li class="main-description" id="description"></li>
+                  <li class="main-description">
                     Humidity: <span id="humidity"></span>%
                   </li>
                   <li class="main-description">
@@ -84,7 +87,8 @@
           </div>
           <div class="weather-forecast" id="forecast"></div>
         </div>
-        <small>
+
+        <small class="open-source">
           <a
             href="https://github.com/MarynaVorobei/vanilla-weather-project"
             target="_blank"
